@@ -3,6 +3,39 @@
 *.pyo
 __pycache__/
 
+# Virtual environment
+env/
+venv/
+*.env
+
+# Django specific
+db.sqlite3
+*.log
+media/
+
+# PyCharm/IDE specific
+.idea/
+
+# VS Code specific
+.vscode/
+
+# MacOS specific
+.DS_Store
+
+# Windows specific
+Thumbs.db
+
+# Django migrations (if you don't want to track them)
+**/migrations/*
+!**/migrations/__init__.py
+
+# Ignore the settings file if you have sensitive data there (you might want to configure separately)
+Puddle/settings.py
+# Python
+*.pyc
+*.pyo
+__pycache__/
+
 # Virtual Environment
 myenv/
 venv/
