@@ -1,1 +1,1 @@
-
+mini pos for sme 
